@@ -9,4 +9,4 @@ This repository shows how to train a custom detection model with the [TFOD API](
 - `Object_Detection_in_TFLite.ipynb`: Shows how to quantize the original model, generate a TFLite model, and run inference. 
 
 ## TFLite model files
-Available [here](https://github.com/sayakpaul/E2E-Object-Detection-in-TFLite/releases/tag/v0.1.0)
+Available [here](https://github.com/sayakpaul/E2E-Object-Detection-in-TFLite/releases/tag/v0.1.0) (currently available in dynamic-range only).
