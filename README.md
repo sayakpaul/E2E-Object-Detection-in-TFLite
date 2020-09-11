@@ -8,5 +8,13 @@ This repository shows how to train a custom detection model with the [TFOD API](
 - `Running_inference_with_a_custom_TFOD_API_model.ipynb`: Shows how to export a `SavedModel` graph from the trained checkpoint files, and run inference. 
 - `Object_Detection_in_TFLite.ipynb`: Shows how to quantize the original model, generate a TFLite model, and run inference. 
 
+## Note
+The training notebook uses Colab to demonstrate the training workflow but does not actually uses the Colab runtime for training. It uses Cloud TPUs.
+
 ## TFLite model files
 Available [here](https://github.com/sayakpaul/E2E-Object-Detection-in-TFLite/releases/tag/v0.1.0) (currently available in dynamic-range only).
+
+## Acknowledgement
+I would like to thank the ML-GDE program for providing with GCP credits without which this project wouldn't have been possible. 
+
+<div align="center"><img src="images/made-by-ml-gdes.png" width='96' height='96'/></div>
