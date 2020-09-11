@@ -1,7 +1,7 @@
 # E2E-Object-Detection-in-TFLite
 This repository shows how to train a custom detection model with the [TFOD API](https://github.com/tensorflow/models/tree/master/research/object_detection) (TF2), optimize it with TFLite, and perform inference with the optimized model.
 
-<div align="center"><img src="https://i.ibb.co/ZXW6N1q/image.png"></img></div>
+<div align="center"><img src="images/demo-predictions.png"></img></div>
 
 ## About the notebooks
 - `Training_a_pets_detector_model_within_minutes_with_TFOD_API.ipynb`: Shows how to train a custom object detection model on the Pets dataset (non-eager mode).
