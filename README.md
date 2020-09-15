@@ -7,7 +7,9 @@ This repository shows how to train a custom detection model with the [TFOD API](
 - `Training_a_pets_detector_model_within_minutes_with_TFOD_API.ipynb`: Shows how to train a custom object detection model on the Pets dataset (non-eager mode).
 - `Running_inference_with_a_custom_TFOD_API_model.ipynb`: Shows how to export a `SavedModel` graph from the trained checkpoint files, and run inference. 
 - `Object_Detection_in_TFLite.ipynb`: Shows how to quantize the original model, generate a TFLite model, and run inference. 
-- `Training_MobileDet_Custom_Dataset.ipynb`: Shows how to train a custom object detection model on the Pets dataset (non-eager mode) on Colab (GPU), optimize the fine-tuned model with TFLite, and perform inference with the optimized model. 
+- `colab_training/` - 
+  - `Fruits_Detection_Data_Prep.ipynb`: Shows how to prepare a object detection dataset in order to train it with the TFOD API in non-eager mode.
+  - `Training_MobileDet_Custom_Dataset.ipynb`: Shows how to fine-tune a MobileDet model to detect localize and detect fruits. It also shows how to optimize the fine-tuned model with TensorFlow Lite and run inference with the optimized model.
 
 ## Note
 `Training_a_pets_detector_model_within_minutes_with_TFOD_API.ipynb` notebook uses Colab to demonstrate the training workflow but does not actually uses the Colab runtime for training. It uses Cloud TPUs.
