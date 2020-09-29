@@ -4,4 +4,4 @@
 
 Please note that the dataset used here is faulty. So, expect some discrepencies in the inference results. 
 
-**TODO**: Add a link to the MobileDet TFLite conversion tutorial when it's published as it's non-trivial. 
+You are encouraged to follow this tutorial ([Optimizing MobileDet for Mobile Deployments](https://sayak.dev/mobiledet-optimization/)) that shows how to effectively convert MobileDet models for mobile deployments. 
